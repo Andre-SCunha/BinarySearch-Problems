@@ -23,8 +23,6 @@ class Solution185 {
                 }
             }
         }
-        console.log(LCS);
-
         return LCS[a.length - 1][b.length - 1];
     }
 }
