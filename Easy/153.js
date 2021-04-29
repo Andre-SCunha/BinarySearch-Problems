@@ -1,4 +1,4 @@
-class Solution {
+class Solution153 {
     solve(nums) {
         const sortedNums = nums.slice(0).sort((a, b) => a - b);
         let count = 0;
